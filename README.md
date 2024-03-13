@@ -18,6 +18,7 @@ Embark on a thrilling journey to the Red Planet with our Mars Data Analysis proj
 2. Navigate the Martian terrain to fetch temperature and pressure data.
 3. Assemble the data into a Pandas DataFrame and unravel the secrets hidden in Mars' weather.
 4. Witness the Martian climate come to life as you plot and analyze the data.
+5. Export the analyzed data to a CSV file named `mars_weather_data.csv`.
 
 ## Requirements
 - Python libraries: Splinter, BeautifulSoup, Pandas, Matplotlib
@@ -33,6 +34,11 @@ Embark on a thrilling journey to the Red Planet with our Mars Data Analysis proj
 - 🌌 `license`: Contains licensing information for the project.
 - 🛰️ `resources`: Explore additional resources for your Mars journey.
 - 📚 `srs`: Reference materials for your adventure.
+
+## Files
+- `part_1_mars_news.ipynb`
+- `part_2_mars_weather.ipynb`
+- `mars_weather_data.csv`
 
 ## References
 - The Mars News website is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from [NASA's Mars News](https://mars.nasa.gov/news/) website in November 2022. Images are used according to the [JPL Image Use Policy](https://www.jpl.nasa.gov/image-policy/), courtesy NASA/JPL-Caltech.
