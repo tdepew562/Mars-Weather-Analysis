@@ -23,6 +23,15 @@ Embark on a thrilling journey to the Red Planet with our Mars Data Analysis proj
 ## Requirements
 - Python libraries: Splinter, BeautifulSoup, Pandas, Matplotlib
 - Prepare for launch with a compatible web browser (Chrome recommended).
+- ChromeDriver - The ChromeDriver is a WebDriver executable that enables automated testing and web scraping with Selenium in Python. If you're using our project and need to use   
+Selenium with Google Chrome, you'll need to download the appropriate version of the ChromeDriver compatible with your Chrome browser version.
+
+### Obtaining ChromeDriver
+
+You can download the ChromeDriver from the official ChromeDriver website: [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads).
+
+Make sure to download the version of ChromeDriver that matches your Chrome browser version. Once downloaded, you can include the path to the ChromeDriver executable in your Python scripts or configure it in your development environment.
+
 
 ## Usage
 1. Clone this repository to your local machine.
