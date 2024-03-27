@@ -1,32 +1,34 @@
 # Mars-Weather-Analysis
-Explore the climate of Mars with the Mars Weather Explorer! Dive into historical weather data and catch up on the latest news from the Red Planet. Get ready for your journey to the stars!
 
-# 🚀 Mars Data Analysis 🪐
+Explore the climate of Mars with the Mars Weather Explorer! Dive into historical weather data and catch up on the latest news from the Red Planet. Get ready for your journey to the stars! 🚀
 
-## Overview
+## 🪐 Mars Data Analysis 
+
+### Overview
 Embark on a thrilling journey to the Red Planet with our Mars Data Analysis project! Dive into the mysteries of Mars by scraping its latest news articles and analyzing its fascinating weather patterns. Get ready to explore Mars like never before!
 
-## Instructions
-### Part 1: Scraping Mars News Articles
+### Instructions
+
+#### Part 1: Scraping Mars News Articles
 1. Launch your browser and navigate to the `part_1_mars_news.ipynb` notebook.
 2. Use Splinter and BeautifulSoup to venture into the Mars news site.
 3. Unearth captivating titles and intriguing preview text from the articles.
-4. Store your findings in Python dictionaries and witness the wonders of Mars unfold before your eyes.
+4. Store your findings in Python dictionaries.
 
-### Part 2: Scraping and Analyzing Mars Weather Data
+#### Part 2: Scraping and Analyzing Mars Weather Data
 1. Blast off to the `part_2_mars_weather.ipynb` notebook.
 2. Navigate the Martian terrain to fetch temperature and pressure data.
 3. Assemble the data into a Pandas DataFrame and unravel the secrets hidden in Mars' weather.
 4. Witness the Martian climate come to life as you plot and analyze the data.
 5. Export the analyzed data to a CSV file named `mars_weather_data.csv`.
 
-## Requirements
+### Requirements
 - Python libraries: Splinter, BeautifulSoup, Pandas, Matplotlib
 - Prepare for launch with a compatible web browser (Chrome recommended).
 - ChromeDriver - A WebDriver executable that enables automated testing and web scraping with Selenium in Python. If you're using our project and need to use   
 Selenium with Google Chrome, you'll need to download the appropriate version of the ChromeDriver compatible with your Chrome browser version.
 
-### Obtaining ChromeDriver
+#### Obtaining ChromeDriver
 
 You can download the ChromeDriver from the official ChromeDriver website: [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads).
 
