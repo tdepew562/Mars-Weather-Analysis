@@ -30,26 +30,32 @@ Selenium with Google Chrome, you'll need to download the appropriate version of 
 
 #### Obtaining ChromeDriver
 
-You can download the ChromeDriver from the official ChromeDriver website: [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads).
+Please note that the ChromeDriver executable is not included in this repository. You will need to download the appropriate version of ChromeDriver compatible with your Chrome browser version from the official ChromeDriver website: [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads).
 
-Make sure to download the version of ChromeDriver that matches your Chrome browser version. Once downloaded, you can include the path to the ChromeDriver executable in your Python scripts or configure it in your development environment.
-
+Ensure that you download the version of ChromeDriver that matches your Chrome browser version. Once downloaded, you can include the path to the ChromeDriver executable in your Python scripts or configure it in your development environment.
 
 ## Usage
 1. Clone this repository to your local machine.
 2. Explore the `src` folder, where the adventure begins with our Jupyter Notebook files.
-3. Engage the notebooks `part_1_mars_news.ipynb` and `part_2_mars_weather.ipynb`.
+3. Engage with the notebooks `part_1_mars_news.ipynb` and `part_2_mars_weather.ipynb`.
 4. Execute the code cells to embark on your Mars exploration mission.
+5. Optionally, explore the `resources` folder for additional data files and plots generated during your exploration.
+
 
 ## Folder Structure
-- 🌌 `license`: Contains licensing information for the project.
-- 🛰️ `resources`: Explore additional resources for your Mars journey.
-- 📚 `srs`: Reference materials for your adventure.
+- 🛰️ `resources`: Store additional data files, plots, and other resources for your Mars journey.
+- 📚 `srs`: Contains the source files used for the project. The main project files are located in the root folder.
 
 ## Files
 - `part_1_mars_news.ipynb`
+- `part_1_mars_news_github.py`
 - `part_2_mars_weather.ipynb`
+- `part_2_mars_weather_github.py`
+- `mars_news_data.json`
 - `mars_weather_data.csv`
+- `mars_min_temp_plot.png`
+- `monthly_avg_min_temp_plot.png`
+- `monthly_avg_pressure_plot.png`
 
 ## References
 - The Mars News website is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from [NASA's Mars News](https://mars.nasa.gov/news/) website in November 2022. Images are used according to the [JPL Image Use Policy](https://www.jpl.nasa.gov/image-policy/), courtesy NASA/JPL-Caltech.
